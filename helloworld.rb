@@ -8,7 +8,3 @@ def my_method(my_variable)
 end
 
 my_method(name)
-
-last_name = "hello"
-
-last_name.
