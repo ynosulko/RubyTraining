@@ -1,17 +1,23 @@
+# Write a program that prints "Welcome to the jungle, we have ___ and ___",
+# then prompts for user input twice and:
+# 1. Prints the complete verse with user data within another string
+# 2. Prints the number of characters in the complete verse
+# 3. Prints the complete verse with user data in a reversed order
+
 puts 'Welcome to the jungle, we have ___ and ___'
 
 puts 'What should be the first word?'
 
-first_word = gets.chomp
+first = gets.chomp
 
 puts 'What should be the second word?'
 
-second_word = gets.chomp
+second = gets.chomp
 
-complete_verse = "Welcome to the jungle, we have #{first_word} and #{second_word}"
+verse = "Welcome to the jungle, we have #{first} and #{second}"
 
-puts "The completed verse is '#{complete_verse}'"
+puts "The completed verse is '#{verse}'"
 
-puts "Your song has #{complete_verse.length} characters in it including spaces"
+puts "Your song has #{verse.length} characters in it including spaces"
 
-puts "The song reversed sounds funny, but there is is '#{complete_verse.reverse}'"
+puts "The song reversed sounds funny, but there it is '#{verse.reverse}'"
