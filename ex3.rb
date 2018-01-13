@@ -50,7 +50,7 @@ when (1..5) then
     puts "First number divided by second number is: #{divide(first_number, second_number)}"
 
   when 5 then
-    puts "You have chosen a calculate a modulo of #{second_number} from #{first_number}"
+    puts "You have chosen to calculate a modulo of #{second_number} from #{first_number}"
     puts "First number modulo the second number is: #{modulo(first_number, second_number)}"
   end
 
